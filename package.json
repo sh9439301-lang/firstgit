@@ -4,10 +4,10 @@
   "description": "profesional setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/sh9439301-lang/firstgit.git"
   },
   "keywords": [
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sh9439301-lang/firstgit/issues"
   },
-  "homepage": "https://github.com/sh9439301-lang/firstgit#readme"
+  "homepage": "https://github.com/sh9439301-lang/firstgit#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
